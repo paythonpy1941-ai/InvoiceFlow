@@ -16,9 +16,8 @@ You can run this project locally by opening:
 
 ```text
 
-index.html
-```
 https://paythonpy1941-ai.github.io/InvoiceFlow/
+```
 You can also deploy the project using **GitHub Pages** to make it available as a live website.
 
 > Live Demo: Add your GitHub Pages URL here after deployment.
