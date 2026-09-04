@@ -37,3 +37,7 @@ main button:active,
     transform:translateY(1px);
 }
 input[type="checkbox"]{accent-color:#457b9d}
+
+/* v1.4.4 Mobile Sidebar Close Fix */
+.sidebar-top{display:flex;align-items:center;justify-content:space-between}.sidebar-top h2{margin:0 0 25px}.close-menu,.sidebar-overlay{display:none}
+@media(max-width:750px){.close-menu{display:block!important;background:transparent!important;color:#fff!important;font-size:24px!important;padding:4px 8px!important}.sidebar-overlay{display:block;position:fixed;inset:0;background:rgba(0,0,0,.42);opacity:0;visibility:hidden;transition:.2s;z-index:9}aside{z-index:10!important}aside.open + .sidebar-overlay{opacity:1;visibility:visible}}
